@@ -12,6 +12,21 @@
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
 
+    <!--
+    JQUERY Smooth Scrolling:
+    http://codeplanet.io/how-to-make-a-single-page-website/
+    -->
+    <script>
+    $('.smooth').on('click', function() {
+        $.smoothScroll({
+            scrollElement: $('body'),
+            scrollTarget: '#' + this.id
+        });
+        
+        return false;
+    });
+    </script>
+
   </head>
 
   <body>
@@ -19,14 +34,14 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/">Awesome Tripplanner</a>
+          <a class="navbar-brand" href="#homeLink">Awesome Tripplanner</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href='#about'>About</a></li>
-            <li><a href='#contact'>Contact</a></li>
+            <li><a href='#aboutLink'>About</a></li>
+            <li><a href='#contactLink'>Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->

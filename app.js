@@ -40,7 +40,5 @@ app.use(function (req, res, next) {
 app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     console.log({error: err});
-    res.render(
-        // ... fill in this part
-    );
+    res.render('404');
 });

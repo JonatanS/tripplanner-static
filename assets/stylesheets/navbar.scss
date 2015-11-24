@@ -4,6 +4,7 @@ $navbar-text-color-hover: #333;
 
 .navbar {
   background-color: $navbar-bg-color;
+  opacity: 0.9;
   padding: 0 60px;
   a {
     color: $navbar-text-color;
