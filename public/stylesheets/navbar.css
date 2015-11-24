@@ -1,28 +1,48 @@
 .navbar {
-  background-color: #ddd;
+  padding: 0 40px;
+  display: block; }
+
+/*$navbar-bg-color: #ddd;
+$navbar-text-color: #626262;
+$navbar-text-color-hover: #333;
+
+
+.navbar {
+  background-color: $navbar-bg-color;
   opacity: 0.9;
-  padding: 0 60px; }
-  .navbar a {
-    color: #626262; }
-    .navbar a:hover {
-      color: #333; }
-  .navbar .navbar-header {
+  padding: 0 60px;
+  height: 50px;
+  a {
+    color: $navbar-text-color;
+    &:hover {
+      color: $navbar-text-color-hover;
+    }
+  }
+  .navbar-header {
     float: left;
-    margin: 1em 0; }
-  .navbar .navbar-right {
-    float: right; }
-  .navbar ul {
-    list-style-type: none; }
+    margin: 1em 0;
+  }
+  .navbar-right {
+    float: right;
+  }
+  ul {
+    list-style-type: none;
+  }
+}
 
 .navbar-inverse {
-  background-color: #222222; }
-  .navbar-inverse a {
-    color: #9d9d9d; }
-    .navbar-inverse a:hover {
-      color: #cccccc; }
+  background-color: invert($navbar-bg-color);
+  a {
+    color: invert($navbar-text-color);
+    &:hover {
+      color: invert($navbar-text-color-hover);
+    }
+  }
+}
 
 .navbar-fixed-top {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%; }
+  width: 100%;
+}*/

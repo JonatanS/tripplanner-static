@@ -3,7 +3,7 @@
 @import "map";
 
 * {
-	box-style: border-box;
+	box-sizing: border-box;
 }
 
 #about {
@@ -29,4 +29,8 @@
     right: 0;
     top: 0;
 
+}
+
+body { 
+    padding-top: 120px; 
 }

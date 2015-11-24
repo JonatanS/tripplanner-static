@@ -12,20 +12,7 @@
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
 
-    <!--
-    JQUERY Smooth Scrolling:
-    http://codeplanet.io/how-to-make-a-single-page-website/
-    -->
-    <script>
-    $('.smooth').on('click', function() {
-        $.smoothScroll({
-            scrollElement: $('body'),
-            scrollTarget: '#' + this.id
-        });
-        
-        return false;
-    });
-    </script>
+
 
   </head>
 
@@ -64,7 +51,23 @@
     </div><!-- /.container -->
     <script src="/jquery/jquery.min.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=&sensor=true"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8QTZLleox_iRAR_v64COKT6-8DaSLLXk&sensor=true"></script>
     <script src="/scripts/google-map.js"></script>
+
+        <!--
+    JQUERY Smooth Scrolling:
+    http://codeplanet.io/how-to-make-a-single-page-website/
+    -->
+    <script>
+    $('.smooth').on('click', function() {
+        $.smoothScroll({
+            scrollElement: $('body'),
+            scrollTarget: '#' + this.id
+        });
+        
+        return false;
+    });
+    </script>
+    
   </body>
 </html>
