@@ -28,10 +28,14 @@
 
 #home {
   height: 1000px;
-  background-color: red; }
+  background-color: red;
+  width: 100%; }
 
 h1 {
   color: green; }
+
+#map-canvas {
+  height: 50vh; }
 
 * {
   box-style: border-box; }
