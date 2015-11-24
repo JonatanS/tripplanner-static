@@ -35,6 +35,9 @@
 h1 {
   color: green; }
 
+#map-canvas {
+  height: 50vh; }
+
 * {
   box-style: border-box; }
 
