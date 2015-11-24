@@ -1,6 +1,7 @@
 .navbar {
-  padding: 0 40px;
-  display: block; }
+  padding: 0 60px;
+  height: 20px;
+  margin: 0; }
 
 /*$navbar-bg-color: #ddd;
 $navbar-text-color: #626262;
@@ -46,32 +47,48 @@ $navbar-text-color-hover: #333;
   left: 0;
   width: 100%;
 }*/
-#home {
-  height: 1000px;
-  background-color: red;
-  width: 100%; }
-
-h1 {
-  color: green; }
-
-.container {
-  width: 100%;
-  margin: 0px;
-  padding: 0px; }
-
 #map-canvas {
   height: 50vh; }
 
 * {
   box-sizing: border-box; }
 
-#about {
-  height: 1000px;
-  background-color: blue; }
+h1 {
+  margin: 0;
+  color: black; }
 
-#contact {
+.container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  clear: both; }
+
+body {
+  margin-top: 50px; }
+
+#home {
   height: 1000px;
-  background-color: green; }
+  background-color: red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%; }
+
+#information {
+  margin: 0 5%; }
+  #information .glyphicon {
+    display: inline;
+    color: #73AD21; }
+  #information ul {
+    list-style-type: none; }
+  #information hr {
+    margin: 40px auto;
+    width: 95%; }
+  #information h1 {
+    margin-bottom: 15px; }
+  #information #about {
+    padding: 50px 0; }
+  #information #contact {
+    padding: 50px 0; }
 
 #not_found {
   width: 100;
@@ -85,6 +102,3 @@ h1 {
   position: fixed;
   right: 0;
   top: 0; }
-
-body {
-  padding-top: 120px; }
