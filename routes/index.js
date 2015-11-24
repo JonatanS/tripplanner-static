@@ -20,7 +20,9 @@ router.get('/', function (req, res, next) {
 		var foundHotels = data[1];
 		var foundActivities = data[2];
 
-		res.send(foundRestaurants);
+		//res.send(foundRestaurants);
+		res.render('index', {restaurants:foundRestaurants, 
+			hotels: foundHotels, activities: foundActivities});
 	})
 	.then(null, next);
 });

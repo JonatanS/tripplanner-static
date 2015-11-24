@@ -1,0 +1,41 @@
+$navbar-bg-color: #ddd;
+$navbar-text-color: #626262;
+$navbar-text-color-hover: #333;
+
+.navbar {
+  background-color: $navbar-bg-color;
+  padding: 0 60px;
+  a {
+    color: $navbar-text-color;
+    &:hover {
+      color: $navbar-text-color-hover;
+    }
+  }
+  .navbar-header {
+    float: left;
+    margin: 1em 0;
+  }
+  .navbar-right {
+    float: right;
+  }
+  ul {
+    list-style-type: none;
+  }
+}
+
+.navbar-inverse {
+  background-color: invert($navbar-bg-color);
+  a {
+    color: invert($navbar-text-color);
+    &:hover {
+      color: invert($navbar-text-color-hover);
+    }
+  }
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

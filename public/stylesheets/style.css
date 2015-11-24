@@ -1,2 +1,45 @@
+.navbar {
+  background-color: #ddd;
+  padding: 0 60px; }
+  .navbar a {
+    color: #626262; }
+    .navbar a:hover {
+      color: #333; }
+  .navbar .navbar-header {
+    float: left;
+    margin: 1em 0; }
+  .navbar .navbar-right {
+    float: right; }
+  .navbar ul {
+    list-style-type: none; }
+
+.navbar-inverse {
+  background-color: #222222; }
+  .navbar-inverse a {
+    color: #9d9d9d; }
+    .navbar-inverse a:hover {
+      color: #cccccc; }
+
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+#home {
+  height: 1000px;
+  background-color: red; }
+
+h1 {
+  color: green; }
+
 * {
   box-style: border-box; }
+
+#about {
+  height: 1000px;
+  background-color: blue; }
+
+#contact {
+  height: 1000px;
+  background-color: green; }

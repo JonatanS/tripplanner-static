@@ -1,3 +1,17 @@
+@import "navbar";
+@import "home";
+
+
 * {
 	box-style: border-box;
+}
+
+#about {
+	height: 1000px;
+	background-color: blue;
+}
+
+#contact {
+	height: 1000px;
+	background-color: green;
 }
