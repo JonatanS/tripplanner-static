@@ -21,14 +21,17 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#homeLink">Awesome Tripplanner</a>
+          <a id="showMenu" class="navbar-brand"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+          <a id="homeLink" class="navbar-brand smooth" href="#homeLink">Awesome Tripplanner</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href='#aboutLink'>About</a></li>
-            <li><a href='#contactLink'>Contact</a></li>
+<!--             <li><a id="aboutLink" class='smooth' href='#aboutLink'>About</a></li>
+            <li><a id="contactLink" class='smooth' href='#contactLink' >Contact</a></li> -->
+            <li><a id="aboutLink" class='smooth' href='#aboutLink'>About</a></li>
+            <li><a id="contactLink" class='smooth' href='#contactLink' >Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -51,23 +54,14 @@
     </div><!-- /.container -->
     <script src="/jquery/jquery.min.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8QTZLleox_iRAR_v64COKT6-8DaSLLXk&sensor=true"></script>
     <script src="/scripts/google-map.js"></script>
+    <script src="/scripts/scripts.js"></script>
 
-        <!--
-    JQUERY Smooth Scrolling:
-    http://codeplanet.io/how-to-make-a-single-page-website/
-    -->
-    <script>
-    $('.smooth').on('click', function() {
-        $.smoothScroll({
-            scrollElement: $('body'),
-            scrollTarget: '#' + this.id
-        });
-        
-        return false;
-    });
-    </script>
+ 
+
     
   </body>
 </html>

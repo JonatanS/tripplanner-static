@@ -48,8 +48,19 @@ $navbar-text-color-hover: #333;
 }*/
 #home {
   height: 1000px;
-  background-color: red;
+  /*background-color: red;*/
   width: 100%; }
+
+#menuPanel {
+  /*margin-top: 50px;*/
+  /*padding-top: 50px;*/
+  height: 0px;
+  width: 250px;
+  background-color: white;
+  position: absolute;
+  z-index: 5;
+  opacity: 0.9;
+  /*border-bottom-right-radius: 10px;*/ }
 
 h1 {
   color: green; }
@@ -60,7 +71,7 @@ h1 {
   padding: 0px; }
 
 #map-canvas {
-  height: 50vh; }
+  height: 100%; }
 
 * {
   box-sizing: border-box; }
@@ -87,4 +98,4 @@ h1 {
   top: 0; }
 
 body {
-  padding-top: 120px; }
+  padding-top: 50px; }
